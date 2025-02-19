@@ -1,0 +1,14 @@
+
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "youtube-summary-worker",
+  "main": "src/index.js",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "compatibility_date": "2025-02-04",
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  }
+}

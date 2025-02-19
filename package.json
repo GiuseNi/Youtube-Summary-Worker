@@ -1,0 +1,21 @@
+{
+  "name": "youtube-summary-worker",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@cloudflare/vitest-pool-workers": "^0.6.4",
+    "vitest": "2.1.8",
+    "wrangler": "^3.107.3"
+  },
+  "dependencies": {
+    "openai": "^4.83.0",
+    "youtube-transcript": "^1.2.1"
+  }
+}
